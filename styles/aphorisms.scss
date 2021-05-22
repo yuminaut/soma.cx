@@ -1,0 +1,20 @@
+.aphorisms {
+  color: #eaeaea;
+  background: #45000a;
+  font-size: 1.3em;
+  font-family: "Baskerville", "Times New Roman", "Times", serif;
+  h1 {
+    text-align: center;
+  }
+  .aphorism {
+    display: flex;
+    padding: 0.7em 0;
+    .date {
+      flex: 0 0 6em;
+      color: #999;
+    }
+    .text {
+      flex: 1;
+    }
+  }
+}

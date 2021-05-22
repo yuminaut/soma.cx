@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: TradeWinds;
+  src: url(/fonts/TradeWinds-Regular.ttf);
+}
+
+.khoomei {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--font-serif);
+
+  .wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  h1,
+  h2 {
+    font-family: "TradeWinds", serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .playpause {
+    text-align: center;
+    a {
+      border: none;
+      &:hover {
+        border-bottom: thin solid white;
+        background: none;
+        color: inherit;
+      }
+    }
+  }
+
+  video {
+    display: block;
+    border: 2px solid #f5dc38;
+    outline: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .box1 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #800000;
+    color: white;
+    border: 2px solid #f5dc38;
+    box-shadow: 0 0 7px 1px #333;
+  }
+  .box2 {
+    border: 2px dotted #f5dc38;
+  }
+  .box3 {
+    border: 2px dashed #f5dc38;
+  }
+  .box4 {
+    border: 1px dotted #f5dc38;
+    position: relative;
+  }
+  .box5 {
+    border: 2px dashed #800000;
+    position: relative;
+    background: #f5dc38;
+  }
+  .box6 {
+    border: 2px solid #f5dc38;
+    position: relative;
+    background: #800000;
+    padding: 24px;
+  }
+
+  .poembox {
+    background-image: url(/img/horse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+
+    letter-spacing: 1px;
+    font-size: 1.1em;
+  }
+  .poembox-inner {
+    background: #100000aa;
+    // margin: 0;
+    padding: 24px;
+    text-align: center;
+  }
+  .poem {
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  .videobox {
+    padding: 0px;
+  }
+}

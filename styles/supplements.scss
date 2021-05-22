@@ -1,0 +1,30 @@
+.supplements {
+  font-family: var(--font-sans);
+  .wrapper {
+    max-width: 640px;
+  }
+  h1,
+  h2 {
+    text-align: center;
+  }
+  li {
+    margin: 0.3em 0;
+  }
+  .box {
+    background: #111c;
+    border: 2px solid #333;
+    padding: 0 1em 1em;
+    margin-bottom: 2em;
+    :last-child {
+      margin-bottom: 0;
+    }
+    &.good {
+      background: #030c;
+      border: 2px solid #050;
+    }
+    &.bad {
+      background: #300c;
+      border: 2px solid #500;
+    }
+  }
+}

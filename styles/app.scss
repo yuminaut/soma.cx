@@ -1,0 +1,31 @@
+.app-layout {
+  height: 100%;
+  display: flex;
+
+  .flex-sidebar {
+    flex: 0 0 1;
+  }
+  .flex-sidebar > div {
+    height: 100%;
+  }
+  .flex-content {
+    flex: 3;
+    overflow: auto;
+  }
+}
+
+/* app-content is not actually in use */
+// .app-content {
+//   /* height: 100%; */
+//   .page {
+//     /* padding: 1em; */
+//     max-width: 720px;
+//     margin: 0 auto;
+//   }
+//   #content {
+//     animation: fadeMeIn 0.5s forwards;
+//   }
+//   #content.fadingOut {
+//     animation: fadeMeOut 0.2s forwards;
+//   }
+// }

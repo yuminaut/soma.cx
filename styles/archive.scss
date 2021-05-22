@@ -1,0 +1,36 @@
+.archive {
+  height: 100%;
+  background: #000;
+  color: rgb(255, 100, 100);
+  font-family: "Times New Roman", "Times", serif;
+
+  .wrapper {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+  h1,
+  h2 {
+    text-align: center;
+  }
+  p {
+    text-indent: 1em;
+  }
+  .short {
+    text-align: center;
+  }
+  .separator {
+    text-align: center;
+  }
+  .archive-item {
+    display: flex;
+    // padding: 0 0 0.7em;
+    .date {
+      flex: 0 0 6em;
+      color: #999;
+    }
+    .text {
+      flex: 1;
+    }
+  }
+}

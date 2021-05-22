@@ -1,0 +1,27 @@
+.night {
+  &,
+  a {
+    color: #ccc;
+  }
+  a:hover,
+  a:active,
+  a:focus {
+    background: #ccc;
+    color: #000;
+  }
+
+  font-size: 18px;
+  font-family: "Baskerville", "Times New Roman", serif;
+  h1,
+  h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    text-indent: 1.5em;
+  }
+  .night-source {
+    text-align: right;
+  }
+}

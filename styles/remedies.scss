@@ -1,0 +1,23 @@
+.remedies {
+  color: #fafafa;
+  background: #333;
+  font-size: 1.1em;
+  font-family: var(--font-sans);
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    border-bottom: thin solid #444;
+  }
+  .aphorism {
+    display: flex;
+    padding: 0.7em 0;
+    .date {
+      flex: 0 0 6em;
+      color: #999;
+    }
+    .text {
+      flex: 1;
+    }
+  }
+}

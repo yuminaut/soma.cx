@@ -1,0 +1,22 @@
+.docs {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 3em 1em;
+  text-align: right;
+  color: #999;
+  a {
+    color: #999;
+    &:hover {
+      color: #1a1a1a;
+      background: #999;
+    }
+  }
+  .back-button {
+    text-align: left;
+  }
+  .docs-links {
+    display: inline-block;
+    text-align: left;
+    /* max-width: 600px;*/
+  }
+}

@@ -1,0 +1,149 @@
+/* CSS */
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css);
+
+:root {
+  --background-color: #1a1a1a;
+  --background-color-menu: #1a1a1a55;
+  --text-color: #7fff00;
+  --link-color: #7fff00;
+  --link-underline: #6eee0077;
+  --pink-color: #ea00ff;
+  --nav-link-color: #7fff00;
+  --nav-link-shadow: #7fff0044;
+  --font-mono: "Fira Code", "Consolas", monospace;
+  --font-serif: "Baskerville", "Times New Roman", "Times", serif;
+  --font-sans: "Avenir", "Helvetica", "Arial", sans-serif;
+  --font-family: "Fira Code", "Consolas", monospace;
+  --grayed-color: #08880055;
+
+  /* --text-color: #77aeff; */
+  --background-color: #1a1a1a;
+  --text-color: #fafafa;
+  --link-color: #f5f5f5;
+  --link-underline: #888;
+  --pink-color: #ea00ff;
+  --nav-link-color: #fafafa;
+  --nav-link-color: #fff;
+  --nav-link-shadow: #fafafa44;
+  --grayed-color: #08050855;
+}
+
+.light-theme {
+  --text-color: #1a1a1a;
+  --background-color: #fafafa;
+  --link-underline: #888;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+// html,
+body,
+#root,
+#__next {
+  height: 100%;
+}
+
+body {
+  font: 300 1em/1.5 var(--font-family);
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+a {
+  color: var(--text-color);
+  color: inherit;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: thin solid var(--link-underline);
+}
+
+a:hover,
+a:focus {
+  color: var(--background-color);
+  background: var(--text-color);
+  text-decoration: none;
+  border-bottom: thin solid var(--link-underline);
+}
+
+body {
+  cursor: url(/img/purple-arrow.png), auto;
+}
+
+a {
+  cursor: url(/img/purple-pointer.png) 6 0, auto;
+}
+
+.grayed {
+  color: var(--grayed-color);
+  text-shadow: none;
+}
+
+@keyframes fadeMeIn {
+  from {
+    opacity: 0;
+    visibility: visible;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeMeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+/* ----- */
+
+.page {
+  // height: 100%;
+  padding: 16px;
+  @media screen and (max-width: 480px) {
+    padding: 12px;
+  }
+}
+
+.wrapper {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.fullSizeBackground {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+  opacity: 1; /* set this for each image instead */
+}
+
+.back-button a {
+  color: inherit;
+  border-color: inherit;
+}
+
+/* --------------- iceberg ----------------*/
+.iceberg {
+  text-align: center;
+  list-style: none;
+
+  column-count: 2;
+  @media only screen and (max-width: 800px) {
+    column-count: 1;
+  }
+}

@@ -1,0 +1,407 @@
+/* CSS */
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css);
+
+:root {
+  --background-color: #1a1a1a;
+  --background-color-menu: #1a1a1a55;
+  --text-color: #7fff00;
+  --link-color: #7fff00;
+  --link-underline: #6eee0077;
+  --pink-color: #ea00ff;
+  --nav-link-color: #7fff00;
+  --nav-link-shadow: #7fff0044;
+  --font-family: "Fira Code", "Consolas", monospace;
+  --grayed-color: #08880055;
+
+  /* --text-color: #77aeff; */
+  --text-color: #fafafa;
+  --link-color: #f5f5f5;
+  --link-underline: #888;
+  --pink-color: #ea00ff;
+  --nav-link-color: #fafafa;
+  --nav-link-shadow: #fafafa44;
+  --grayed-color: #08050855;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root,
+#__next {
+  height: 100%;
+}
+
+body {
+  font: 300 1em/1.5 var(--font-family);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  /* background: url("/img/windows.jpg") center center cover no-repeat fixed; */
+}
+
+/* body { background-color: #250020; background: linear-gradient(92deg, #4b0038, #0d4100, #001929, #3f001c); background-size: 800% 800%; -webkit-animation: AnimationName 21s ease infinite; -moz-animation: AnimationName 21s ease infinite; animation: AnimationName 21s ease infinite; } @-webkit-keyframes AnimationName { 0% { background-position: 19% 0%; } 50% { background-position: 82% 100%; } 100% { background-position: 19% 0%; } } @-moz-keyframes AnimationName { 0% { background-position: 19% 0%; } 50% { background-position: 82% 100%; } 100% { background-position: 19% 0%; } } @keyframes AnimationName { 0% { background-position: 19% 0%; } 50% { background-position: 82% 100%; } 100% { background-position: 19% 0%; } } */
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-shadow: 1px 1px 3px var(--pink-color);
+} */
+
+a {
+  color: var(--text-color);
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: thin solid var(--link-underline);
+}
+
+a:hover,
+a:focus {
+  color: var(--background-color);
+  background: var(--text-color);
+  text-decoration: none;
+  border: none;
+}
+
+body,
+a,
+a:hover {
+  cursor: url(/img/purple.png), auto;
+}
+
+.grayed {
+  color: var(--grayed-color);
+  text-shadow: none;
+}
+
+.fullSizeBackground {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+  opacity: 1; /* set this for each image instead */
+}
+
+@keyframes fadeMeIn {
+  from {
+    opacity: 0;
+    visibility: visible;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeMeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+/* --------------- app content ----------------*/
+
+.app-layout {
+  height: 100%;
+}
+.app-layout {
+  display: flex;
+  height: 100%;
+}
+.app-layout .flex-sidebar {
+  flex: 0 0 1;
+}
+.app-layout .flex-sidebar > div {
+  height: 100%;
+}
+.app-layout .flex-content {
+  flex: 3;
+  overflow: auto;
+}
+
+/* app-content is not actually in use */
+.app-content {
+  /* height: 100%; */
+}
+.app-content .page {
+  /* padding: 1em; */
+  max-width: 720px;
+  margin: 0 auto;
+}
+.app-content #content {
+  /* height: 100%; */
+  animation: fadeMeIn 0.5s forwards;
+}
+.app-content #content.fadingOut {
+  animation: fadeMeOut 0.2s forwards;
+}
+
+/* --------------- 404 not found ----------------*/
+
+.not-found {
+  text-align: center;
+  color: red;
+}
+.not-found a,
+.not-found a:hover,
+.not-found a:focus,
+.not-found a:active,
+.not-found a:visited {
+  background: none;
+  border: none;
+}
+
+/* --------------- breathing ----------------*/
+
+.breathing {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1em;
+  font-family: "Baskerville", "Times New Roman", serif;
+  font-size: 1.2em;
+  background: #1a1a1a;
+}
+.breathing,
+.breathing a {
+  color: #ccc;
+}
+.breathing a:hover {
+  background: #ccc;
+  color: #1a1a1a;
+}
+.breathing h1 {
+  border-bottom: thin solid #999;
+}
+.breathing h2 {
+  border-bottom: thin solid #666;
+}
+
+/* --------------- recipes ----------------*/
+
+.recipes {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1em;
+}
+.recipes .flex {
+  background: #0008;
+  border: 2px solid #555;
+  padding: 0 1em 1em;
+  margin-bottom: 2em;
+}
+
+.recipes .flex:last-child {
+  margin-bottom: 0;
+}
+
+.recipes .flex .images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipes .flex .images img {
+  margin: 1em;
+  height: 250px;
+}
+
+/* --------------- birdsong ----------------*/
+
+.tweets {
+  padding: 1em;
+}
+
+.tweet {
+  margin: 2em 1em;
+  border: thin solid #7fff00;
+  display: flex;
+}
+.tweet p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+.tweet p:last-child {
+  margin: 0;
+}
+.tweet .col {
+  padding: 1em;
+}
+.tweet .text {
+  flex: 3;
+}
+.tweet .link {
+  flex: 0 0 75px;
+}
+.tweet .globeLink,
+.tweet .globeLink:hover,
+.tweet .globeLink:active,
+.tweet .globeLink:visited,
+.tweet .globeLink:focus {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.tweet .globeLink img {
+  max-width: 100%;
+}
+
+/* --------------- khoomei ----------------*/
+
+.khoomei {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/* --------------- aphorisms ----------------*/
+
+.aphorisms {
+  padding: 1em;
+  color: #eaeaea;
+  background: #45000a;
+  font-size: 1.3em;
+  font-family: "Baskerville", "Times", "Times New Roman", serif;
+}
+.aphorisms h1 {
+  text-align: center;
+}
+.aphorisms .wrapper {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.aphorisms .aphorism {
+  display: flex;
+  padding: 0.7em;
+}
+.aphorisms .aphorism .date {
+  flex: 0 0 6em;
+  color: #888;
+}
+.aphorisms .aphorism .text {
+  flex: 1;
+}
+
+/* --------------- buildings ----------------*/
+
+.buildings {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1em;
+  color: #ff5555;
+  font-family: "Avenir";
+  font-size: 1.2rem;
+}
+.buildings a {
+  color: inherit;
+  border-bottom: 1px solid #660000;
+}
+.buildings a:hover {
+  color: var(--background-color);
+  background: #ff5555;
+  border-bottom: none;
+}
+.buildings h1,
+.buildings h2 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.buildings p {
+  text-align: justify;
+  text-indent: 1.5em;
+}
+
+/* --------------- death ----------------*/
+
+.death {
+  padding: 1em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.death .wrapper {
+  display: inline-block;
+  text-align: left;
+  padding: 1em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* --------------- docs ----------------*/
+
+.docs {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 3em 1em;
+  text-align: right;
+  color: #999;
+}
+.docs a {
+  color: #999;
+}
+.docs a:hover {
+  color: #1a1a1a;
+  background: #999;
+}
+.docs .back-button {
+  text-align: left;
+}
+.docs .docs-links {
+  display: inline-block;
+  text-align: left;
+  /* max-width: 600px;*/
+}
+
+/* --------------- scearpo-energy ----------------*/
+
+.scearpo-energy {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1em;
+  color: #ea00ff;
+}
+.scearpo-energy .img-box {
+  text-align: center;
+}
+.scearpo-energy .img-box img {
+  max-height: 200px;
+  max-width: 48%;
+  margin: 0 1%;
+  box-shadow: 0 0 10px 3px #ea00ff44;
+  border: thin solid #ea00ff77;
+  border-radius: 3px;
+}
+.scearpo-energy .img-box#last img {
+  max-height: 100%;
+  max-width: 80%;
+}
+
+/* --------------- favorites ----------------*/
+
+.book {
+  margin-bottom: 0.23em;
+}
+
+.movies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}

@@ -1,0 +1,25 @@
+.nutrition {
+  --col: #fafafa;
+  --bg: #220000;
+
+  font-family: var(--font-sans);
+  font-size: 1.25em;
+  background: var(--bg);
+  color: var(--col);
+
+  a {
+    color: var(--col);
+    &:hover,
+    &:focus {
+      background: var(--col);
+      color: var(--bg);
+    }
+  }
+
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    border-bottom: thin solid #777;
+  }
+}

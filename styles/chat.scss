@@ -1,0 +1,532 @@
+.fadeInChat {
+  animation: fadeIn 0.5s;
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+.message.style-mobile {
+  flex-direction: column;
+  .meta {
+    width: 100%;
+    padding-top: 0.5em;
+    .time {
+      float: right;
+      font-size: 0.8em;
+    }
+    .tooltip .tooltiptext {
+      display: none;
+    }
+    .mobile-trip {
+      display: inline;
+      color: #ffffff88;
+      // float: right;
+      vertical-align: middle;
+      font-size: 0.8em;
+    }
+  }
+  .content {
+    margin-left: 1em;
+  }
+}
+
+.message.style-irc {
+  flex-direction: row; // default
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  .meta {
+    flex: 0 0 auto;
+    .mobile-trip {
+      display: none;
+    }
+  }
+  .content {
+    overflow: hidden;
+  }
+}
+
+/* Handle each individual message */
+// .chat .message {
+//   flex-direction: row; // default
+//   flex-shrink: 0;
+//   display: flex;
+//   align-items: flex-start;
+//   .meta {
+//     flex: 0 0 auto;
+//     .mobile-trip {
+//       display: none;
+//     }
+//   }
+//   .content {
+//     overflow: hidden;
+//   }
+// }
+
+.chat {
+  --border-color: green;
+  --meta-border-color: #ffffff33;
+  --time-color: #555;
+  --header-color: #80ff00;
+  --message-color: #eaeaea;
+
+  color: var(--message-color);
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 125%;
+
+  a {
+    color: #80ff00;
+    border-bottom: thin solid #80ff00aa;
+    &:hover {
+      color: #222;
+      background: #80ff00;
+    }
+  }
+
+  .messages a {
+    color: #80ff00;
+    border: none;
+    &:hover,
+    &:active,
+    &:focus {
+      text-decoration: underline;
+      background: none;
+    }
+  }
+}
+
+.chat .header {
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  padding-bottom: 1em;
+  .txt {
+    color: var(--header-color);
+    padding: 0 1em 0.5em;
+  }
+  .generator {
+    flex: 1;
+  }
+}
+
+/* ------------------------ Common for all devices ------------------------ */
+
+.chat-main {
+  height: 100%;
+  padding: 1em;
+
+  .loading {
+    text-align: center;
+    font-size: 2em;
+    padding-top: 2em;
+  }
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .namesave {
+    --w: 26ch; // 12 * 2 + 1 + padding
+    display: flex;
+    flex-direction: column;
+
+    .nametrip {
+      min-width: var(--w);
+      text-align: right;
+      padding: 2px;
+    }
+
+    .checkboxAndInput {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      .checkbox {
+        padding-right: 1ch;
+        input {
+          background: var(--border-color);
+        }
+      }
+
+      .secretInput {
+        background: inherit;
+        color: inherit;
+        border: thin solid var(--border-color);
+        padding: 5px;
+        outline: none;
+        width: var(--w);
+      }
+    }
+  }
+
+  .theFlex {
+    flex: 1; // fill height
+    overflow: hidden;
+  }
+
+  .messages {
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+  }
+
+  .message .time {
+    color: var(--time-color);
+  }
+
+  .message .name {
+    font-weight: bold;
+  }
+
+  .message .content {
+    white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+    white-space: -webkit-pre-wrap; /* Chrome & Safari */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    white-space: pre-wrap; /* CSS3 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+    word-break: break-word; // should be able to use only this
+    white-space: normal;
+  }
+
+  .message.style-mobile.followUp .meta {
+    visibility: hidden;
+    height: 0.5ch;
+  }
+
+  .messageInput {
+    background: inherit;
+    color: inherit;
+    resize: none;
+    outline: none;
+  }
+
+  .connButton {
+    background: #222;
+    border: 5px outset #303030;
+    margin-left: 10px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px 13px;
+    font-size: 16px;
+  }
+  .connButton:active {
+    background: #1a1a1a;
+    border: 5px outset #292929;
+  }
+}
+
+/* ----------------------- Primarily desktop layout ----------------------- */
+
+.chat {
+  font-size: 14px; // the font is actually 13x8 which is why the spacing looks weird
+  --width-messages: 80ch;
+  --space-between: 4px;
+  --span-width: calc(12ch + var(--space-between) + 2px); // 2px for safari
+  --padding-x: 0.5ch;
+  --padding-y: 1ch;
+  --width-connections: calc(
+    2 * (var(--span-width) + var(--space-between) + var(--padding-x))
+  );
+  max-width: calc(var(--width-messages) + var(--width-connections));
+  margin: 0 auto;
+  text-align: left;
+
+  .generator {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .theFlex {
+    display: flex;
+  }
+
+  .messages {
+    flex: 0 auto var(--width-messages);
+    width: 100%;
+    padding: 1ch;
+    border: thin solid var(--border-color);
+  }
+
+  .connButton {
+    display: none;
+  }
+  .connOpen {
+    display: block;
+  }
+
+  .connectionsBox {
+    flex: 0 0 var(--width-connections);
+    border: thin solid var(--border-color);
+
+    display: flex;
+    flex-flow: column nowrap;
+
+    .settingsBox {
+      text-align: center;
+
+      .settings {
+        display: inline-block;
+        border-bottom: thin solid var(--border-color);
+        padding: var(--padding-y) var(--padding-x);
+        text-align: left;
+      }
+    }
+
+    .connectionsTitle {
+      text-align: center;
+      padding: 1ch 1ch 0;
+      font-weight: bold;
+    }
+
+    // move to common?
+    .connections {
+      overflow-y: scroll;
+      border-left: none;
+      padding: var(--padding-y) var(--padding-x);
+      margin: 0 auto;
+      display: flex;
+      flex-flow: column nowrap;
+
+      .connection {
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+
+        .connectionName {
+          display: inline-block;
+          width: var(--span-width);
+          padding-right: var(--space-between);
+          text-align: right;
+        }
+
+        .connectionTrip {
+          display: inline-block;
+          width: var(--span-width);
+          padding-left: var(--space-between);
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  .messageInput {
+    flex: 0 0 100px;
+    border: thin solid var(--border-color);
+    padding: 1em;
+  }
+}
+
+.chat .tooltip {
+  position: relative;
+  display: inline-block;
+
+  &:hover .tooltiptext,
+  &:active .tooltiptext {
+    visibility: visible;
+  }
+
+  .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background: #eee;
+    color: #222;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    position: absolute;
+    z-index: 1;
+
+    top: -5px;
+    left: 115%;
+  }
+
+  .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #eee transparent transparent;
+  }
+}
+
+/* ----------------------------- Small screen ----------------------------- */
+
+@media screen and (max-width: 800px) {
+  .chat {
+    font-size: 13px;
+
+    .messages {
+      width: 100%;
+    }
+
+    .header {
+      flex-direction: column;
+    }
+
+    .message {
+      flex-direction: column;
+
+      .meta {
+        width: 100%;
+        padding-top: 0.5em;
+
+        .time {
+          float: right;
+          font-size: 0.8em;
+        }
+        .tooltip .tooltiptext {
+          display: none;
+        }
+        .mobile-trip {
+          display: inline;
+          color: #ffffff88;
+          // float: right;
+          vertical-align: middle;
+          font-size: 0.8em;
+        }
+      }
+      .content {
+        margin-left: 1em;
+      }
+    }
+
+    .message.followUp .meta {
+      visibility: hidden;
+      height: 0.5ch;
+    }
+
+    .connectionsBox {
+      display: none;
+    }
+
+    .connButton {
+      display: block;
+      position: fixed;
+      top: 25px;
+      right: 20px;
+      z-index: 999;
+    }
+    .connOpen {
+      font-size: 14px;
+      display: block;
+      position: fixed;
+      z-index: 999;
+      top: 95px;
+      right: 16px;
+      max-height: 44ch;
+      background: #000000bb;
+      border: thin solid var(--border-color);
+    }
+
+    .messageInput {
+      flex: 0 0 80px;
+      padding: 1ch;
+    }
+
+    .settings .cozymode {
+      display: none;
+    }
+  }
+}
+
+/* -------------------------------- Mobile -------------------------------- */
+
+@media screen and (max-width: 480px) {
+  .chat-main {
+    padding: 0;
+  }
+
+  .chat {
+    font-size: 12px;
+    // padding: 0;
+
+    .header {
+      padding: 0.5em;
+      flex-direction: row;
+      border-bottom: thin solid var(--border-color);
+
+      .generator {
+        justify-content: center;
+      }
+
+      .secretInput {
+        border: thin solid #444;
+      }
+
+      .txt {
+        display: none;
+      }
+    }
+
+    .theFlex {
+      flex: 1;
+
+      .messages {
+        padding: 0.5em;
+        border: none;
+      }
+    }
+
+    .connButton {
+      display: block;
+      position: static;
+    }
+    .connOpen {
+      font-size: 14px;
+      display: block;
+      position: fixed;
+      z-index: 999;
+      top: 65px;
+      right: 8px;
+      max-height: 44ch;
+      background: #000000ec;
+      border: thin solid var(--border-color);
+    }
+
+    .messageInput {
+      flex: 0 0 60px;
+      border: none;
+      border-top: thin solid var(--border-color);
+      padding: 0.5ch 1ch;
+    }
+  }
+}
+
+/* ------------------------------ Scrollbars ------------------------------ */
+.messages::-webkit-scrollbar,
+.connections::-webkit-scrollbar {
+  width: 4px;
+}
+.messages::-webkit-scrollbar-track,
+.connections::-webkit-scrollbar-track {
+  // box-shadow: inset 0 0 6px rgba(255, 0, 0, 0.9);
+  // border-left: thin solid green;
+}
+.messages::-webkit-scrollbar-thumb,
+.connections::-webkit-scrollbar-thumb {
+  background-color: green;
+}
+.messages,
+.connections {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-track-color: transparent; /* IE and Edge */
+  scrollbar-track-color: #555; /* IE and Edge */
+  scrollbar-width: 4px; /* Firefox */
+  scrollbar-color: dark; /* Firefox */
+}

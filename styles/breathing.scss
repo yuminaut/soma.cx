@@ -1,0 +1,19 @@
+.breathing {
+  font-family: var(--font-serif);
+  font-size: 1.2em;
+  background: #212121;
+  &,
+  a {
+    color: #eee;
+  }
+  a:hover {
+    background: #eee;
+    color: #212121;
+  }
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    border-bottom: thin solid #666;
+  }
+}

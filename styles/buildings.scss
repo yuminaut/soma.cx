@@ -1,0 +1,24 @@
+.buildings {
+  color: #ff5555;
+  font-family: "Avenir";
+  font-size: 1.2rem;
+  a {
+    color: inherit;
+    border-bottom: 1px solid #660000;
+    &:hover {
+      color: var(--background-color);
+      background: #ff5555;
+      border-bottom: none;
+    }
+  }
+  h1,
+  h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    text-align: justify;
+    text-indent: 1.5em;
+  }
+}

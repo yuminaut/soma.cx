@@ -1,0 +1,29 @@
+.colortool {
+  font-family: var(--font-sans);
+  text-align: center;
+  padding: 1em;
+
+  .yourSecret {
+    text-align: center;
+    background: #222;
+    color: #fafafa;
+    text-shadow: 0 0 3px #222;
+    border-radius: 5px;
+    border: thin solid #777;
+    padding: 1em;
+    margin-bottom: 1em;
+    outline: none;
+  }
+
+  .yourHex {
+    text-align: center;
+    background: #222;
+    color: #fafafa;
+    text-shadow: 0 0 3px #222;
+    border-radius: 5px;
+    border: thin solid #777;
+    padding: 1em;
+    margin-bottom: 1em;
+    outline: none;
+  }
+}

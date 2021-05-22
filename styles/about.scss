@@ -1,0 +1,21 @@
+.about {
+  height: 100%;
+  color: rgb(185, 255, 255);
+  font-family: var(--font-sans);
+
+  @media screen and (max-width: 480px) {
+    .donate-btc {
+      font-size: 12px;
+    }
+  }
+
+  .wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  h1,
+  h2 {
+    text-align: center;
+  }
+}

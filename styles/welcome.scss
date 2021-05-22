@@ -1,0 +1,126 @@
+.welcome {
+  height: 100vh;
+
+  .welcome-main {
+    padding-top: 3em;
+    max-width: 640px;
+    margin: 0 auto;
+
+    #title {
+      text-align: center;
+    }
+    #text {
+      max-width: 600px;
+      padding: 1em 0 0;
+      margin: 0 auto;
+    }
+    #rules {
+      font-size: 1.5em;
+      text-align: center;
+    }
+    #list {
+      text-align: center;
+    }
+    #list ol {
+      display: inline-block;
+      text-align: left;
+    }
+    #enter {
+      text-align: center;
+      font-size: 3em;
+      a {
+        border: none;
+      }
+    }
+
+    // Images
+    #dream {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 480px;
+    }
+    #skull {
+      vertical-align: middle;
+    }
+    #linePulse {
+      width: 100%;
+      margin: 0 auto;
+    }
+    #redSkull1 {
+      float: left;
+    }
+    #redSkull2 {
+      float: right;
+    }
+
+    @media screen and (max-width: 500px) {
+      #rules {
+        font-size: 1.5em;
+      }
+      #enter {
+        font-size: 2em;
+      }
+      #redSkull1,
+      #redSkull2 {
+        width: 2em;
+      }
+    }
+    @media screen and (max-width: 400px) {
+      #rules {
+        font-size: 1em;
+      }
+      #enter {
+        font-size: 1.4em;
+      }
+      #redSkull1,
+      #redSkull2 {
+        width: 2em;
+      }
+    }
+  }
+
+  .welcome-overlay {
+    .inactiveOverlay {
+      display: none;
+    }
+
+    .activeOverlay {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 150;
+      background: black;
+      animation: fade 0.3s ease-in-out;
+    }
+
+    .activeOverlay img {
+      width: 100%;
+      height: 100%;
+      animation: coolEffect 2s linear 0s forwards;
+    }
+
+    @keyframes fade {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    @keyframes coolEffect {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  }
+}

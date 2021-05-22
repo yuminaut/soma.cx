@@ -1,0 +1,22 @@
+.recipes {
+  font-family: var(--font-sans);
+  .box {
+    background: #000a;
+    border: 2px solid #555;
+    padding: 0 1em 1em;
+    margin-bottom: 2em;
+    :last-child {
+      margin-bottom: 0;
+    }
+    .images {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      img {
+        margin: 1em;
+        height: 250px;
+      }
+    }
+  }
+}

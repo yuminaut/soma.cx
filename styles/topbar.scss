@@ -1,0 +1,47 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-family: var(--font-mono);
+  color: var(--nav-link-color);
+
+  .left {
+    font-size: 24px;
+    @media screen and (max-width: 480px) {
+      font-size: 18px;
+    }
+  }
+  .right {
+    font-size: 14px;
+    @media screen and (max-width: 480px) {
+      font-size: 12px;
+    }
+  }
+
+  .header {
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+
+    .header-link {
+      border: none;
+
+      &:hover,
+      &:active,
+      &:focus {
+        color: inherit;
+        background: none;
+        text-shadow: 0 0 10px var(--pink-color);
+      }
+    }
+
+    .pink {
+      vertical-align: middle;
+      color: var(--pink-color);
+      text-shadow: 0 0 10px var(--pink-color);
+      font-weight: 400;
+      font-size: 1.1em;
+    }
+  }
+}

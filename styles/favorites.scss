@@ -1,0 +1,23 @@
+.favorites {
+  font-family: var(--font-sans);
+  font-size: 1.2em;
+
+  h1 {
+    text-align: center;
+  }
+
+  .book {
+    margin-bottom: 0.23em;
+  }
+
+  .wrapper {
+    max-width: 900px;
+  }
+
+  .movies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}

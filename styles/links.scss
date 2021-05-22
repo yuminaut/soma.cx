@@ -1,0 +1,18 @@
+.links {
+  height: 100%;
+  color: rgb(255, 255, 255);
+  font-family: var(--font-mono), monospace;
+  font-size: 13px;
+
+  .wrapper {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  li {
+    margin: 0.25em 0;
+  }
+}

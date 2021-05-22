@@ -1,0 +1,51 @@
+.home {
+  max-width: 720px;
+  margin: 0 auto;
+  text-shadow: 0 0 10px #222;
+}
+
+.home .home-links {
+  text-align: center;
+  padding: 1em 0;
+}
+.home .home-links dl {
+  display: inline-block;
+  text-align: left;
+}
+.home .home-links dt {
+  font-weight: 500;
+  margin-bottom: 0.25em;
+}
+.home .home-links dd {
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+
+.home .text-align-right {
+  text-align: right;
+}
+
+.home #sign {
+  /* border: 3px solid #ea00ff; */
+  /* border-radius: 10px; */
+  /* box-shadow: 0 0 30px 5px #ea00ff99, inset 0 0 30px 5px #ea00ff99; */
+  /* padding: 2em; */
+  text-align: center;
+}
+.home #skull {
+  vertical-align: middle;
+  width: 1em;
+}
+.home #lain {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.home h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+.home h2 {
+  font-size: 1.5em;
+  margin: 0;
+}

@@ -1,0 +1,34 @@
+.tweet {
+  margin: 2em 1em;
+  border: thin solid #7fff00;
+  display: flex;
+
+  p {
+    margin-top: 0;
+    margin-bottom: 1em;
+    :last-child {
+      margin: 0;
+    }
+  }
+  .col {
+    padding: 1em;
+  }
+  .text {
+    flex: 3;
+  }
+  .link {
+    flex: 0 0 75px;
+  }
+  .globeLink,
+  .globeLink:hover,
+  .globeLink:active,
+  .globeLink:visited,
+  .globeLink:focus {
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+  .globeLink img {
+    max-width: 100%;
+  }
+}

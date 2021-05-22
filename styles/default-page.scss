@@ -1,0 +1,17 @@
+.default-page {
+  height: 100%;
+  color: #fafafa;
+  font-family: var(--font-sans);
+
+  .wrapper {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    border-bottom: thin solid #fafafa44;
+  }
+}
