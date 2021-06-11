@@ -21,25 +21,23 @@ const About = ({ topbar }) => (
           overwhelmed by the positive response, which has continually motivated
           me to keep improving it.
         </p>
-        <h2>the future of somachat</h2>
+        <h2>roadmap</h2>
         <p>
-          I am currently focus on expanding the prototype into a foundation for
-          a decentralized communication network. My vision is to let you browse
-          and connect to multiple user-hosted chat servers, either fully
-          anonymously or as recognized by a single unique identitfier – up to
-          you.
+          I am focused on expanding the prototype into a foundation for a
+          decentralized communication network. My vision is to let you browse
+          and connect to multiple user-hosted chat servers, either anonymously
+          or by a single unique identitfier – up to you.
         </p>
         <p>
-          Along with that I am always serious about improving usability and
-          performance, and take all user feedback seriously. The chat will
-          always be free to use and I plan to release software that lets you
-          host your own dedicated chat server.
+          Usability and performance are of high concern, and I take all user
+          feedback seriously. The chat will always be free to use and I plan to
+          release software that lets you host your own dedicated chat server.
         </p>
         <p>
-          Donations are highly appreciated to help support my development as
+          Donations are highly appreciated as they help support development as
           well as server costs. Thank you!
         </p>
-        <p className="donate-btc">
+        <p className="donate-coin">
           BTC:{" "}
           <span
             style={{
@@ -52,6 +50,24 @@ const About = ({ topbar }) => (
           /{" "}
           <ALink
             href="/img/35dZZK71K4h1fV5B8dBL6RwydES5ujPY1d.png"
+            target="_blank"
+          >
+            QR Code
+          </ALink>
+        </p>
+        <p className="donate-coin">
+          CELO:{" "}
+          <span
+            style={{
+              fontWeight: "bold",
+              fontFamily: "var(--font-mono)",
+            }}
+          >
+            0x287fd8ef4867aC8a4C4Fe7d21008E11589209Ec1
+          </span>{" "}
+          /{" "}
+          <ALink
+            href="/img/0x287fd8ef4867aC8a4C4Fe7d21008E11589209Ec1.png"
             target="_blank"
           >
             QR Code
