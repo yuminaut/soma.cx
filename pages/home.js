@@ -73,7 +73,7 @@ const collapse = (xs) =>
 
 const textLinks = collapse([
   { href: "/archive", title: "archive" },
-  { href: "/birdsong", title: "birdsong" },
+  // { href: "/birdsong", title: "birdsong" },
   { href: "/docs", title: "docs" },
   // { href: "/favorites", title: "favorites" },
   { href: "/links", title: "links" },
@@ -87,12 +87,13 @@ const healthLinks = collapse([
   { href: "/recipes", title: "recipes" },
   { href: "/threats", title: "threats" },
   { href: "/remedies", title: "remedies" },
+  { href: "/misc", title: "misc" },
 ]);
 
 const miscLinks = collapse([
-  { href: "/thenightsong", title: "the night song" },
+  // { href: "/thenightsong", title: "the night song" },
   { href: "/khoomei", title: "khoomei" },
-  { href: "/steppe.html", title: "go outside" },
+  { href: "/steppe.html", title: "steppe" },
 ]);
 
 export default Home;

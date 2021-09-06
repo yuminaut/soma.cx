@@ -1,5 +1,5 @@
 import { BackHome } from "../components/BackButtons.js";
-import { SLink } from "../components/Links.js";
+import { ALink, SLink } from "../components/Links.js";
 
 const Remedies = () => (
   <>
@@ -27,7 +27,9 @@ const Remedies = () => (
           <li>
             <SLink href="/nutrition">Nutrition</SLink>
           </li>
-          <li>Gut health (page coming soon)</li>
+          <li>
+            Gut health (see <SLink href="/misc">the misc page</SLink>)
+          </li>
           <li>
             <SLink href="/breathing">Breathing</SLink>
           </li>
@@ -63,15 +65,27 @@ const Remedies = () => (
           </li>
         </ul>
 
-        <h3 id="asthma-anxiety">Asthma, anxiety</h3>
+        <h3 id="asthma-anxiety">Asthma</h3>
         <ul>
-          <li>Nosebreathing 24/7</li>
-          <li>Daily Buteyko breathing exercises</li>
+          <li>Nutrition and gut health</li>
+          <li>Right breathing</li>
+          <li>
+            Check out the{" "}
+            <a
+              href="https://raypeatforum.com/community/tags/asthma/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              asthma
+            </a>{" "}
+            tag on the Ray Peat Forum
+          </li>
         </ul>
 
         <h3 id="depression-anxiety-eczema">Depression, anxiety, eczema</h3>
         <ul>
           <li>Nutrition and gut health</li>
+          <li>Right breathing</li>
           <li>Daily natural light exposure</li>
           <li>Topical magnesium chloride</li>
         </ul>

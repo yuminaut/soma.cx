@@ -21,22 +21,28 @@ Unorganized content.
 - Hair care
 - Skin care
 - Physiognomy
-- Breast Enlargement
+- Breast enlargement
 - Drink warm water, not cold
 - Gut-brain axis & gut microbiota
 
 
 ## Hair care
 
-- Egg shampoo as needed
-- Magnesium chloride to improve blood flow and remove calcium buildup
+- Alternative to shampoo: egg
+- Magnesium chloride on scalp to improve blood flow and remove calcium buildup
 - Prevent hygral fatigue
   - https://organigrowhairco.com/blogs/news/hygral-fatigue-what-it-is-and-how-to-prevent-it
   - Use coconut oil to prevent water entering hair
   - Wash hair less often
 
+Personally I only wash my hair with water and comb through it. Have done so
+for years now and it's neither greasy nor dry.
+
 
 ## Skin care
+
+Healthy skin is mostly a matter of diet and hormonal balance. Far too complex
+for me to go into right now. Avoid industrial skin care products and PUFAs.
 
 
 ## Physiognomy

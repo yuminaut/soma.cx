@@ -33,7 +33,6 @@ const Docs = () => (
 );
 
 const links = [
-  { url: "/misc", name: "Miscellaneous content" },
   { url: "/travel", name: "Notes on travel" },
   { url: "/buildings", name: "Buildings are Sentient and Evil" },
   { url: "/energy", name: "Mystical Human Energy Vibrations" },
@@ -44,8 +43,7 @@ const links = [
   },
   {
     url: "http://lwhasten.com/edved.html",
-    name:
-      "🔗 Eddas and Vedas: Comparative Mythology and the Aryan Invasion Hypothesis",
+    name: "🔗 Eddas and Vedas: Comparative Mythology and the Aryan Invasion Hypothesis",
   },
   {
     url: "https://saturniancosmology.org/index.php",
