@@ -51,13 +51,13 @@ const Nutrition = ({ topbar }) => (
       <h2 id="what-to-eat">What to eat</h2>
       <ul>
         <li>
-          <b>Meat</b> - game meat, grass-fed red meats
+          <b>Meat</b> - grass-fed red meats, game meat
         </li>
         <li>
           <b>Liver, organ food</b>
         </li>
         <li>
-          <b>Bone broth</b>
+          <b>Bone broth, soups</b>
         </li>
         <li>
           <b>Seafood</b> - fish, shellfish, bivalves (like oysters)
@@ -66,13 +66,12 @@ const Nutrition = ({ topbar }) => (
           <b>Cooked eggs</b> - keep the yolk runny
         </li>
         <li>
-          <b>Raw eggs</b> -{" "}
           <a
             href="https://www.mdpi.com/2072-6643/11/3/684/htm"
             rel="noreferrer"
             target="_blank"
           >
-            don't mix with sugars for antimicrobial benefits
+            <b>Raw eggs</b>
           </a>
         </li>
         <li>
@@ -97,10 +96,6 @@ const Nutrition = ({ topbar }) => (
           <b>Fruit</b>
           <ul>
             <li>
-              No smoothies or juices; we are made to consume fruits{" "}
-              <em>whole</em>.
-            </li>
-            <li>
               Choose fruits depending on what micronutrients your diet lacks.
               Citrus fruits are high in vitamin C, pineapple is high in vitamin
               C and manganese. Grapefruit is great.
@@ -123,6 +118,13 @@ const Nutrition = ({ topbar }) => (
 
       <h3 id="miscellaneous">Miscellaneous</h3>
       <ul>
+        <li>
+          <b>Sugar</b> (
+          <a href="http://raypeat.com/articles/articles/glycemia.shtml">
+            yes, really
+          </a>{" "}
+          – but don't eat processed crap)
+        </li>
         <li>
           <b>Raw apple cider vinegar (with &quot;mother&quot;)</b> -
           antioxidant, antimicrobial
@@ -153,10 +155,10 @@ const Nutrition = ({ topbar }) => (
               garlic skin broth
             </a>
           </b>{" "}
-          - immunity
+          - immunity, gut health
         </li>
         <li>
-          <b>Red onion</b> - with food
+          <b>Onion</b> - with food
         </li>
       </ul>
 
@@ -167,16 +169,30 @@ const Nutrition = ({ topbar }) => (
         properties:
       </p>
       <ul>
-        <li>Sucrose and artificial sweeteners</li>
+        <li>
+          PUFA (polyunsaturated fatty acids) - see{" "}
+          <a
+            href="https://raypeat.com/articles/articles/unsaturated-oils.shtml"
+            rel="noreferrer"
+            target="_blank"
+          >
+            here
+          </a>
+          {" and "}
+          <a
+            href="https://raypeat.com/articles/articles/unsaturatedfats.shtml"
+            rel="noreferrer"
+            target="_blank"
+          >
+            here
+          </a>
+        </li>
         <li>Soy</li>
-        <li>Corn and all its derivatives</li>
+        <li>Artificial sweeteners</li>
+        <li>Corn and all derivatives, such as HFCS</li>
         <li>Grains (gluten/bread, legumes/beans, nuts included)</li>
         <li>Industrialized vegetable/seed oils</li>
         <li>Low quality commercial animals</li>
-        <li>Alcohol</li>
-        <li>Caffeine</li>
-        <li>Smoke</li>
-        <li>Flouride</li>
         <li>
           Vegetables high in{" "}
           <a
@@ -186,6 +202,11 @@ const Nutrition = ({ topbar }) => (
           >
             oxalate
           </a>
+        </li>
+        <li>Flouride</li>
+        <li>Alcohol (probably OK in moderation)</li>
+        <li>
+          Smoking (<i>possibly</i> OK in moderation)
         </li>
       </ul>
 
