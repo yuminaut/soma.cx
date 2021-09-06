@@ -90,16 +90,12 @@ const App = ({ Component, pageProps }) => {
         <Player audio={audio} changed={changed} />
       </div> */}
       <div className="flex-content" style={{ height: "100%" }}>
-        {/* <div className="app-content"> */}
-        {/* <div id="content"> */}
         <Component
           {...pageProps}
           topbar={topbar}
           audio={audio}
           setAudio={setAudio}
         />
-        {/* </div> */}
-        {/* </div> */}
       </div>
     </div>
   );
