@@ -14,7 +14,7 @@ const Parasites = ({ topbar }) => (
 );
 
 const md = `
-# Parasites (page in progress)
+# Parasites
 
 I have no idea how to introduce this subject and how to organize this page, so
 I'll just post disjoint bits of information and let you draw your own conclusions.
@@ -24,7 +24,9 @@ them are written and compiled in an incredibly schizophrenic fashion; some of
 it is insane but the content is well compiled. Draw your own conclusions.
 
 - [What is the worm pill/parasite pill? The Grand Unified Conspiracy?](https://archive.is/goqjW)
+  - [Backup](wormpill.html)
 - [The Parasite Pill](parasites/worm-pill.pdf)
+
 
 ## What's really going on?
 
@@ -37,6 +39,7 @@ living there, and it probably holds true for a bunch of other countries too.
 Could it be Western hubris thinking that we think we are beyond pests?
 
 Did we forget that "cleanliness is next to godliness"?
+
 
 ## Possible connections
 
@@ -65,14 +68,17 @@ Why is ivermectin such a big deal? Could there be any truth to it?
 
 [What explains this?](https://www.thesun.co.uk/health/16288103/covid-restless-anal-syndrome/)
 
+
 ## Deworming - getting rid of worms/parasites
 
 - [The Complete Herbal by Nicholas Culpeper, M.D.](https://www.gutenberg.org/files/49513/49513-h/49513-h.htm).
   Search for "worm" or "parasite".
+  - [Backup](the-complete-herbal.html)
 - [Parasite cleanse protocol](parasites/parasite-cleanse.png)
+- [Using garlic to treat parasites](wisihow-parasites.html)
+
 
 ## Misc
-
 
 ![](parasites/iceberg.png)
 
