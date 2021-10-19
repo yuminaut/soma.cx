@@ -44,6 +44,9 @@ const Threats = ({ topbar }) => {
             <a href="#shampoo">Shampoo</a>
           </li>
           <li>
+            <a href="#parasites">Parasites</a>
+          </li>
+          <li>
             <a href="#porn">Porn</a>
           </li>
           <li>
@@ -282,6 +285,10 @@ const Threats = ({ topbar }) => {
         </p>
         <p>
           <a href="https://www.reddit.com/r/NoPoo/wiki/index">More info</a>
+        </p>
+        <h2 id="parasites">Parasites</h2>
+        <p>
+          Please see the page on <SLink href="parasites">parasites</SLink>.
         </p>
         <h2 id="porn">Porn</h2>
         <p>Do not watch porn.</p>
