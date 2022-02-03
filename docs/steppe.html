@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="steppe/css/style.css" />
+  </head>
+
+  <body>
+    <img src="steppe/img/steppe.jpg" id="bg" />
+    <audio id="player" src="steppe/audio/kargyraa.mp3"></audio>
+
+    <div id="wrapper">
+      <div class="box1">
+        <div class="box2">
+          <div class="box3">
+            <div class="box4">
+              <div class="box5">
+                <div class="box6">
+                  <img src="steppe/img/cross.png" class="cross ne" />
+                  <img src="steppe/img/cross.png" class="cross se" />
+                  <img src="steppe/img/cross.png" class="cross sw" />
+                  <img src="steppe/img/cross.png" class="cross nw" />
+                  <h1 id="banner">Mount your horse...</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="audio-controls" style="visibility: hidden; opacity: 0">
+        <a onclick="document.getElementById('player').play()">Play</a>
+        •
+        <a onclick="document.getElementById('player').pause()">Pause</a>
+      </div>
+
+      <div id="sun">
+        <img src="steppe/img/sun.png" onclick="closeWelcome(this)" />
+      </div>
+
+      <div id="listen">
+        <span style="visibility: hidden" id="listen1"
+          >Stay awhile and Listen...</span
+        >
+        <span style="visibility: hidden" id="listen2">carefully.</span>
+        <span style="visibility: hidden" id="listen3"
+          >The Wind is telling you something...</span
+        >
+      </div>
+    </div>
+
+    <script type="text/javascript" src="steppe/js/script.js"></script>
+  </body>
+</html>
