@@ -130,9 +130,6 @@ const Nutrition = ({ topbar }) => (
           antioxidant, antimicrobial
         </li>
         <li>
-          <b>Flax seed oil</b> - not for cooking
-        </li>
-        <li>
           <b>Lemon</b> - immunity
         </li>
         <li>

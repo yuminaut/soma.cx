@@ -33,9 +33,9 @@ const Supplements = ({ topbar }) => (
           <li>
             <ALink href="#vitamin-c">🚫 Vitamin C</ALink>
           </li>
-          <li>
+          {/* <li>
             <ALink href="#vitamin-d">🚫 Vitamin D</ALink>
-          </li>
+          </li> */}
           <li>
             <ALink href="#omega-3">🚫 Omega-3</ALink>
           </li>
@@ -68,10 +68,10 @@ const Supplements = ({ topbar }) => (
         <ReactMarkdown children={mdVitaminC} />
       </div>
 
-      <div className="box bad">
+      {/* <div className="box bad">
         <a id="vitamin-d"></a>
         <ReactMarkdown children={mdVitaminD} />
-      </div>
+      </div> */}
 
       <div className="box bad">
         <a id="omega-3"></a>

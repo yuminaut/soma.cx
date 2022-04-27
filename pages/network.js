@@ -110,28 +110,28 @@ const friends = [
     name: "Exo-Science",
     at: "NgoloTesla",
   },
-  {
-    url: "https://scythia.online",
-    name: "Scythosophy / Scythia.Online",
-    at: "ARIOSOPHY",
-  },
+  // {
+  //   url: "https://scythia.online",
+  //   name: "Scythosophy / Scythia.Online",
+  //   at: "ARIOSOPHY",
+  // },
   {
     url: "https://monkeydao.neocities.org/",
     name: "Monkey Dao",
     at: "MonkeDao",
   },
-  {
-    url: "https://cyberdoxology.com/",
-    name: "cyberdoxology.com",
-    at: "cyberdoxoiogy",
-  },
-  { url: "https://edith.reisen/", name: "Edith.Reisen" },
-  { url: "https://remilia.org/", name: "Remilia House" },
-  {
-    url: "https://www.youtube.com/channel/UCNmpIxA1dTKoKp0TSeqUlpw",
-    name: "Scorched Earth Policy",
-    at: "Scearpo",
-  },
+  // {
+  //   url: "https://cyberdoxology.com/",
+  //   name: "cyberdoxology.com",
+  //   at: "cyberdoxoiogy",
+  // },
+  // { url: "https://edith.reisen/", name: "Edith.Reisen" },
+  // { url: "https://remilia.org/", name: "Remilia House" },
+  // {
+  //   url: "https://www.youtube.com/channel/UCNmpIxA1dTKoKp0TSeqUlpw",
+  //   name: "Scorched Earth Policy",
+  //   at: "Scearpo",
+  // },
 ];
 
 export default Network;
