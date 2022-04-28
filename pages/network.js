@@ -23,13 +23,13 @@ const Network = ({ topbar }) => (
           this way can you reclaim agency and ownership of your digital soul.
           Revive the network spirit!
         </p>
-        <p>
+        {/* <p>
           Make sure you visit the{" "}
           <SLink href="/direct">
             <b>chat</b>
           </SLink>
           !
-        </p>
+        </p> */}
 
         <h2>cyberfrens</h2>
         <ul>
