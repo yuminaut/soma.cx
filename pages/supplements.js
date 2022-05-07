@@ -39,9 +39,9 @@ const Supplements = ({ topbar }) => (
           <li>
             <ALink href="#omega-3">🚫 Omega-3</ALink>
           </li>
-          <li>
+          {/* <li>
             <ALink href="#zinc">🚫 Zinc</ALink>
-          </li>
+          </li> */}
           <li>
             <ALink href="#iron">🚫 Iron</ALink>
           </li>
@@ -78,10 +78,10 @@ const Supplements = ({ topbar }) => (
         <ReactMarkdown children={mdOmega3} />
       </div>
 
-      <div className="box bad">
+      {/* <div className="box bad">
         <a id="zinc"></a>
         <ReactMarkdown children={mdZinc} />
-      </div>
+      </div> */}
 
       <div className="box bad">
         <a id="iron"></a>
@@ -100,14 +100,11 @@ between supplements and food as medicine. A good diet should already provide
 most necessary minerals, vitamins, amino acids and so on.
 
 - Organ meats – nature's multivitamin
-- Black seed oil – anti-inflammatory; [research](https://twitter.com/Grimhood/status/1254703513134751746)
 - Olive oil – antioxidant, anti-inflammatory
-- Cod liver (oil) – vitamin D, anti-inflammatory
 - Magnesium/potassium/sodium chloride – electrolytes
-- Pine pollen – testosterone, multivitamin
 - Pine needles – vitamin A and vitamin C
-- Bull testicles – testosterone
 - Royal jelly – B vitamins, antioxidants, anti-inflammatory
+- Baking soda
 `;
 
 const mdNew = `
