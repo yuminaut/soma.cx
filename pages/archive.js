@@ -213,15 +213,15 @@ const Archive = ({ topbar }) => {
           does to the alpha.
         </p>
 
-        <p className="separator">~</p>
+        {/* <p className="separator">~</p> */}
 
         {/* 06-02-2021 */}
-        <p>
+        {/* <p>
           Some people's brains are like paper mache, completely dry from lack of
           cholesterol, or like styrofoam perhaps, making creaking sounds when
           they moves their heads, or like caramellized sugar perhaps—regardless,
           you can basically break small pieces off and throw them at bypassers.
-        </p>
+        </p> */}
 
         <p className="separator">~</p>
 
@@ -275,27 +275,27 @@ const Archive = ({ topbar }) => {
           discharge of masculine energy and memetic power.
         </p>
 
-        <p className="separator">~</p>
+        {/* <p className="separator">~</p> */}
 
         {/* 09-02-2021 */}
-        <p>
+        {/* <p>
           There are impressions that completely bypass your mind and speak via
           your heart directly to your soul – among these are Bach's music, the
           sunset, and the touch of a beautiful woman; why these impressions
           touch us is a mystery, but it is in that very mystery we can find
           solace.
-        </p>
+        </p> */}
 
-        <p className="separator">~</p>
+        {/* <p className="separator">~</p> */}
 
         {/* 12-02-2021 */}
-        <p>
+        {/* <p>
           The assumption is that social media came to as an intentional creation
           based on the vision of engineers, but consider the inverse—the
           engineers serve as no more than a host of social media as an
           unintentionally brought to life parasite feeding on your dopamine. Do
           you understand?
-        </p>
+        </p> */}
 
         <p className="separator">~</p>
 
@@ -384,15 +384,15 @@ const Archive = ({ topbar }) => {
           that is a picture of you hanging on the manifestation board.
         </p>
 
-        <p className="separator">~</p>
+        {/* <p className="separator">~</p> */}
 
         {/* 19-03-2021 */}
-        <p>
+        {/* <p>
           Tiger Balm Ointment War Face Paint Kneel Digital Soph Altar Violent
           Snort Seven 尺 Long Lines Pine Pollen Douse Self Liquid Incense Chant
           Ancient Tibetan Mantra Elevate Mind Qi Beyond Body Instant Reach
           Nirvana
-        </p>
+        </p> */}
 
         <p className="separator">~</p>
 
