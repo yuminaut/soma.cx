@@ -1,6 +1,25 @@
 .welcome {
   height: 100vh;
 
+  display: flex;
+  flex-flow: row wrap;
+
+  .welcome-chat,
+  .welcome-site {
+    flex: 1;
+  }
+
+  .welcome-chat {
+    // background: white;
+    // color: black;
+    background: black;
+    font-family: Arial;
+    border-right: 4px solid black;
+  }
+  // .welcome-site {
+  //   border-left: 4px solid white;
+  // }
+
   .welcome-main {
     padding-top: 3em;
     max-width: 640px;

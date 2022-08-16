@@ -53,40 +53,6 @@ const Network = ({ topbar }) => (
             </li>
           ))}
         </ul>
-
-        {/* <h2>why?</h2>
-        <p>
-          Web 2.0 is becoming inhospitable; <b>network event horizon</b> is
-          impending. Good users will be forced to migrate to their own domains,
-          if they have them.
-        </p>
-        <p>
-          This is a good thing— renting land on some superconglomerate's UI is
-          low time-pref. <b>If u don't own property, u are the property.</b>
-        </p>
-        <p>
-          Live in the town square, and the magistrate can expel u at any time,
-          or cut u down like a dog...
-        </p>
-        <p>
-          But build ur own temple in the woods and become immortal, with an
-          underground <b>network of exiles</b>.
-        </p>
-        <p>Freedom relies on self sufficiency relies on private ownership.</p>
-        <p>
-          This is what untethered knowledge exchange will look like in coming
-          years; a dispersed network of <b>web landlords</b> exiled from commie
-          prison-platforms, forced to strike out into the wilderness, organising
-          thru underground tunnel link-lattices.
-        </p>
-        <p>
-          This page is a portal, one entry to this warren; a growing list of
-          friends of the <b>Knowledge Network</b>, who have begun constructing
-          their fiefdoms.
-        </p>
-        <p style={{ textAlign: "right" }}>
-          [<ALink href="http://dons.directory/Network">Don</ALink>]
-        </p> */}
       </div>
     </div>
   </>
@@ -94,44 +60,25 @@ const Network = ({ topbar }) => (
 
 const friends = [
   {
-    url: "https://3dtestosterone.net/",
-    name: "3DTESTOSTERONE.NET",
-    at: "FODKORP",
-  },
-  { url: "http://dons.directory/", name: "Don's Directory", at: "Hot_Domme" },
-  {
-    url: "https://daoskivolk.neocities.org/",
-    name: "Daoski Volk",
-    at: "daoskivolk",
-  },
-  // { url: "https://soma.cx/", name: "soma.cx", at: "milkonaut" },
-  {
     url: "http://exo-science.com",
     name: "Exo-Science",
     at: "NgoloTesla",
   },
   // {
-  //   url: "https://scythia.online",
-  //   name: "Scythosophy / Scythia.Online",
-  //   at: "ARIOSOPHY",
+  //   url: "http://2-coin.net",
+  //   name: "2-coin",
+  //   at: "MonadicMode",
   // },
   {
-    url: "https://monkeydao.neocities.org/",
-    name: "Monkey Dao",
-    at: "MonkeDao",
+    url: "https://daoskivolk.neocities.org/",
+    name: "Daoski Volk",
+    at: "daoskivolk",
   },
-  // {
-  //   url: "https://cyberdoxology.com/",
-  //   name: "cyberdoxology.com",
-  //   at: "cyberdoxoiogy",
-  // },
-  // { url: "https://edith.reisen/", name: "Edith.Reisen" },
-  // { url: "https://remilia.org/", name: "Remilia House" },
-  // {
-  //   url: "https://www.youtube.com/channel/UCNmpIxA1dTKoKp0TSeqUlpw",
-  //   name: "Scorched Earth Policy",
-  //   at: "Scearpo",
-  // },
+  {
+    url: "https://3dtestosterone.net/",
+    name: "3DTESTOSTERONE.NET",
+    at: "FODKORP",
+  },
 ];
 
 export default Network;

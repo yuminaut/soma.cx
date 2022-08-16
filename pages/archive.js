@@ -24,6 +24,10 @@ const Archive = ({ topbar }) => {
       <div className="wrapper">
         <h1>ARCHIVE</h1>
 
+        <p style={{ textAlign: "center", fontStyle: "italic" }}>
+          Various authors.
+        </p>
+
         {girl}
 
         <br />
@@ -75,14 +79,14 @@ const Archive = ({ topbar }) => {
           handsome.
         </p>
 
-        <p className="separator">~</p>
+        {/* <p className="separator">~</p> */}
 
         {/* 28-11-2020 */}
-        <p>
+        {/* <p>
           I sometimes get in my car and scream as loud and hard as I can to
           awaken Gotho-Scythian blood memory while blasting cheesy 80s J-pop in
           the background and driving way too fast through the fog.
-        </p>
+        </p> */}
 
         <p className="separator">~</p>
 
@@ -95,15 +99,15 @@ const Archive = ({ topbar }) => {
           And spaces between friends
         </p>
 
-        <p className="separator">~</p>
+        {/* <p className="separator">~</p> */}
 
         {/* 04-01-2021 */}
-        <p>
+        {/* <p>
           I believe that when u are fat, everything u say/think is underlaid by
           the fact that u are fat— any advice given or idea raised comes with
           the asterisk of obesity, signalling that u hate beauty and have made
           ur body a monument to ugliness, and are dying as a consequence.
-        </p>
+        </p> */}
 
         <p className="separator">~</p>
 
@@ -213,40 +217,6 @@ const Archive = ({ topbar }) => {
           does to the alpha.
         </p>
 
-        {/* <p className="separator">~</p> */}
-
-        {/* 06-02-2021 */}
-        {/* <p>
-          Some people's brains are like paper mache, completely dry from lack of
-          cholesterol, or like styrofoam perhaps, making creaking sounds when
-          they moves their heads, or like caramellized sugar perhaps—regardless,
-          you can basically break small pieces off and throw them at bypassers.
-        </p> */}
-
-        <p className="separator">~</p>
-
-        {/* 09-02-2021 */}
-        <p>Man did not invent the wheel; God did.</p>
-        <p>
-          Will man flail and fail to produce anything as revolutionary as the
-          wheel, or fire, for 200 million years forthcoming? Man has not made
-          himself worthy to be gifted fire by Prometheus risking his neck,
-          courting divine persecution, or by the kin-eater Kronos.
-        </p>
-        <p>
-          Humans have never, ever discovered anything worth knowing without
-          divine inspiration. All human knowledge, expertise, artistry stems
-          from synthesis + development of truths intuited by those connected to
-          God, granted mites of perplexing wisdom to be unfolded over millennia.
-        </p>
-        <p>
-          Midwit scientist fears this, topwit scientist knows it in his blood,
-          thrives on it—paradigm shifts spurred when ∞-T breakaway kook begins
-          entertaining verboten suspicion that visits in witching hours,
-          wrestles it into a form that offends status quo just enough, but not
-          too much.
-        </p>
-
         <p className="separator">~</p>
 
         {/* 09-02-2021 */}
@@ -255,15 +225,6 @@ const Archive = ({ topbar }) => {
           denotes the widely occurring drive to wilful surrender to authority of
           agency—the opposite of Nietzsche's "Will to Power".
         </p>
-
-        {/* <p className="separator">~</p> */}
-        {/* 09-02-2021 */}
-        {/* <p>
-          memories spontaneously resurfacing: "she has bigger boobs than i do,
-          is that why?" — "no no not at all it was complteltly meaningless" —
-          "blablabla, bing bing wahoo, wah wah"; i am relieved, finally it's
-          over, the dove of freedom has landed in my palm.
-        </p> */}
 
         <p className="separator">~</p>
 
@@ -296,42 +257,6 @@ const Archive = ({ topbar }) => {
           unintentionally brought to life parasite feeding on your dopamine. Do
           you understand?
         </p> */}
-
-        <p className="separator">~</p>
-
-        {/* 20-02-2021 */}
-        <p>
-          In slobbering lust for certainty, man violates Nature and strips Her
-          bare with quantification. Her genius lies in modesty and mystery, but
-          the prurient human lifts her skirt, and shows his friends. He doesn't
-          know, but he does more damage to his own dignity than to hers.
-        </p>
-        <p>
-          He scrabbles after the imagined placidity of total comprehension,
-          crafting a dream that delimits the realm of God to that which he may
-          comprehend— of course, he then finds God is not present in this world;
-          nor is Nature, nor is Beauty. He has his perfect system, and nothing
-          else.
-        </p>
-        <p>
-          It’s no wonder why man itches for certainty… but what an ugly thing it
-          is for a creature to scratch away his own flesh to the bone. To reject
-          the charming modesty in ambiguity is to cast oneself from Heaven.
-        </p>
-        <p>
-          He wrangles even the workings of his own sacred body onto the
-          Procrustean bed of metric and mechanism, analysing it like he would a
-          machine or a dead animal—no wonder that he finds himself to be
-          alternately an animal or an automaton. He hexes himself into mundane
-          corporeality.
-        </p>
-        <p>
-          In short, science is the slaughterhouse of myth. Who can blame modern
-          man for thinking the moon is just a rock? We have close up pictures of
-          its (her) craters. This is the equivalent of seeing a beautiful woman
-          and taking a microscope to each of her pores and then proceeding to
-          name them.
-        </p>
 
         <p className="separator">~</p>
 
@@ -384,16 +309,6 @@ const Archive = ({ topbar }) => {
           that is a picture of you hanging on the manifestation board.
         </p>
 
-        {/* <p className="separator">~</p> */}
-
-        {/* 19-03-2021 */}
-        {/* <p>
-          Tiger Balm Ointment War Face Paint Kneel Digital Soph Altar Violent
-          Snort Seven 尺 Long Lines Pine Pollen Douse Self Liquid Incense Chant
-          Ancient Tibetan Mantra Elevate Mind Qi Beyond Body Instant Reach
-          Nirvana
-        </p> */}
-
         <p className="separator">~</p>
 
         {/* 11-04-2021 */}
@@ -429,50 +344,6 @@ const Archive = ({ topbar }) => {
           disappointment. Women in particularl arrive at their spouses
           physically redlined and emotionally bedraggled. Always, the
           invocations of freedom… but who wants freedom from love?
-        </p>
-
-        <p className="separator">~</p>
-
-        {/* 12-04-2021 */}
-        <p>
-          Not just cyber Asiatics but future orientalism, synthesis of ancient
-          mysticism and insect capitalism, runaway technomarket return to a new
-          Eastern hegemon, one that, unlike the West's, remains culturally
-          steeped in tradition, spirituality and history: Jade McDonalds.
-        </p>
-        <p>
-          Believe in love, believe in God, faith in life and empathy in the
-          other, selfless and humble but not insecure, violence &amp; risk, nap
-          under the sun, poem dreamt under a tree, to grab dirt by the hands and
-          bite into a stolen peach. To marry without dating.
-        </p>
-        <p>
-          Search for Truth achieved in the Love of Art whose Mysteries best
-          approximate the Eternal is possible b/c the Artist is a handmaiden for
-          God, who can only achieve this by dissolving himself in the multitude.
-          Reject the identity shackles of atheistic modernity. Reject
-          authorship.
-        </p>
-        <p>
-          The real gold &amp; glory of our generation will be given to a newly
-          emerging kind of person. U need to be clear in yourself to survive
-          coming period of thought chaos bc it will make u question ur
-          perceptions, ur awareness, ur presence…whats natural,true,real.
-          Pacific ocean disapear
-        </p>
-        <p>
-          Peak Nutrition, the DemiGod Protocol. Power ching. Esoteric Home
-          Workouts: Tunnel digger, Bunker meditation. I Want To Feel Like I'm
-          Cocaine All The Time-maxxing (megadose). Ammo accumulation. Land
-          accumulation. Secret farms. The Harem Pyramid Scheme. 100 Sons. 1000
-          year dynasty.
-        </p>
-        <p>
-          Headscarf long skirt earth &amp; dark tone lolita. Modesty and mystery
-          and versatility and anonymity. Ankle bracelet, gemstone necklace. Easy
-          elegance, militant techno meet pre-war core for the postdigital
-          lifestyle. Low layers light top arms out or cute coat silhouette.
-          Remilia Kei.
         </p>
       </div>
     </div>

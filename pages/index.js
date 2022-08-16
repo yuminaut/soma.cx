@@ -20,7 +20,11 @@ export default function Welcome({ onClick, audio }) {
         <title>DANGER</title>
       </Head>
       <div className="welcome">
-        <div style={{ background: "black", height: "100%" }}>
+        {/* <div className="welcome-chat">Hello</div> */}
+        <div
+          className="welcome-site"
+          style={{ background: "black", height: "100%" }}
+        >
           {/*  because skulls are black */}
           <div className="welcome-overlay">
             <div className={clicked ? "activeOverlay" : "inactiveOverlay"}>

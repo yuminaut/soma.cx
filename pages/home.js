@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import { BigFlicker } from "../components";
 import { Iceberg } from "../components/Iceberg";
-import { SLink } from "../components/Links.js";
+import { ALink, SLink } from "../components/Links.js";
 const skull = "/img/skull.gif";
 
 const randomElement = (array) => {
@@ -12,11 +12,12 @@ const randomElement = (array) => {
 const randomBg = () => {
   return randomElement([
     "/img/bg/lain1.gif",
-    "/img/bg/lain2.gif",
+    // "/img/bg/lain2.gif",
     "/img/bg/lain1.jpg",
     "/img/bg/brain2.gif",
     "/img/bg/hacker1.gif",
     "/img/bg/schumann.jpeg",
+    "/img/bg/bebop1.jpg",
     // "/img/bg/hacker1.png",
     // "/img/bg/cyberpunk.jpg",
   ]);
@@ -58,11 +59,17 @@ export const Home = ({ topbar }) => {
 
 const collapse = (xs) =>
   xs
-    .map((st, i) => (
-      <SLink key={i} href={st.href}>
-        {st.title}
-      </SLink>
-    ))
+    .map((st, i) =>
+      st.external ? (
+        <ALink key={i} href={st.href} target="_blank" rel="noreferrer">
+          {st.title}
+        </ALink>
+      ) : (
+        <SLink key={i} href={st.href}>
+          {st.title}
+        </SLink>
+      )
+    )
     .reduce((prev, curr, j) => [
       prev,
       <span key={xs.length + j} style={{ color: "#fafafa88" }}>
@@ -77,20 +84,21 @@ const textLinks = collapse([
   { href: "/docs", title: "docs" },
   // { href: "/favorites", title: "favorites" },
   { href: "/links", title: "links" },
-  { href: "/network", title: "network" },
+  // { href: "/network", title: "network" },
 ]);
 
 const healthLinks = collapse([
   { href: "/nutrition", title: "nutrition" },
   { href: "/supplements", title: "supplements" },
   { href: "/breathing", title: "breathing" },
-  { href: "/recipes", title: "recipes" },
+  // { href: "/recipes", title: "recipes" },
   { href: "/threats", title: "threats" },
   { href: "/remedies", title: "remedies" },
   { href: "/misc", title: "misc" },
 ]);
 
 const miscLinks = collapse([
+  { href: "https://chat.soma.cx", title: "chat", external: true },
   // { href: "/thenightsong", title: "the night song" },
   { href: "/khoomei", title: "khoomei" },
   { href: "/steppe.html", title: "steppe" },

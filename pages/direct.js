@@ -14,26 +14,12 @@ const ChatRT = () => {
       </Head>
       <div className="chat-main">
         <div style={{ textAlign: "center" }}>
-          <p>The chat is down, and will be down for the time being.</p>
-          <p>I'm working on a new version.</p>
           <p>
-            Follow{" "}
-            <a
-              href="https://twitter.com/milkonaut"
-              target="_blank"
-              rel="noreferrer"
-            >
-              @milkonaut
-            </a>{" "}
-            and{" "}
-            <a
-              href="https://twitter.com/Hot_Tomme"
-              target="_blank"
-              rel="noreferrer"
-            >
-              @Hot_Tomme
-            </a>{" "}
-            on Twitter for updates.
+            New version is available at{" "}
+            <a href="https://chat.soma.cx" target="_blank" rel="noreferrer">
+              chat.soma.cx
+            </a>
+            .
           </p>
         </div>
       </div>

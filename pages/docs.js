@@ -35,7 +35,6 @@ const Docs = () => (
 const links = [
   { url: "/travel", name: "Notes on travel" },
   { url: "/buildings", name: "Buildings are Sentient and Evil" },
-  { url: "/energy", name: "Mystical Human Energy Vibrations" },
   { url: "/antivegan/index.html", name: "Anti-vegan" },
   {
     url: "http://cura.free.fr/xv/14boutet.html",
@@ -54,7 +53,6 @@ const links = [
     url: "http://osterholm.net/swedes.html",
     name: "🔗 A History of the Swedish People",
   },
-  { url: "https://aajonus.online/", name: "🔗 Aajonus Online" },
 ];
 
 export default Docs;

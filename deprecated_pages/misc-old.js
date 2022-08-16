@@ -21,6 +21,7 @@ Unorganized content.
 - Hair care
 - Skin care
 - Physiognomy
+- Breast enlargement
 - Drink warm water, not cold
 - Gut-brain axis & gut microbiota
 
@@ -54,11 +55,21 @@ for me to go into right now. Avoid industrial skin care products and PUFAs.
 - https://www.light.org/Instantaneous-Reading-from-Profile-SL123.cfm
 - https://twitter.com/S1nge_/status/1366768121579786245
 
-## Prefer warm/hot liquids over cold liquids
+## Breast Enlargement
 
-Cold liquids (especially with ice) restricts blood vessels lining the gut,
+- [Breast Enlargement Botanicals (PDF)](/pdf/Breast-Enlargement-Botanicals.pdf)
+- [More herbs](https://www.breastnexus.com/showthread.php?tid=21602) /
+  [Archive 1st page](https://archive.is/FLMRf)
+  - [Backup](/pdf/breast-enlargement-herbs.txt)
+- [breast.is](https://breast.is/)
+- [http://busty.jugem.jp/](http://busty.jugem.jp/)
+
+
+## Drink warm water, not cold
+
+Cold water (especially with ice) restricts blood vessels lining the gut,
 increases mucus production, and neutralizes digestive enzymes. Warm or lukewarm
-liquids are better for digestion and nutrient absorption.
+water is better for digestion and nutrient absorption.
 
 This is supported by tradition, for instance the Chinese and the Ayurvedic.
 
@@ -69,8 +80,7 @@ There's also some research on it:
 - [_Water ingestion increases sympathetic vasoconstrictor discharge in normal human subjects_](https://pubmed.ncbi.nlm.nih.gov/11222121/)
 - [_Response of esophagus to high and low temperatures in patients with achalasia_](https://pubmed.ncbi.nlm.nih.gov/23105999/)
 
-Try to have warm liquids with your food instead and see for yourself (but don't
-drink too much or you'll harm digestion).
+Try to have warm with your food instead and see for yourself.
 
 
 ## Gut-brain axis & gut microbiota
