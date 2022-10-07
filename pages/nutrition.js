@@ -9,28 +9,8 @@ const Nutrition = ({ topbar }) => (
     {topbar}
     <div className="wrapper">
       <h1 id="nutrition">Nutrition</h1>
-      <ul>
-        <li>
-          <a href="#introduction">Introduction</a>
-        </li>
-        <li>
-          <a href="#what-to-eat">What to eat</a>
-        </li>
-        <li>
-          <a href="#what-to-avoid">What to avoid</a>
-        </li>
-        <li>
-          <a href="#supplements">Supplements</a>
-        </li>
-      </ul>
 
-      <h2 id="introduction">Introduction</h2>
-      <p>
-        The aim of this document is to outline a nutritionally complete diet
-        based in European tradition. If you don't have European ancestry the
-        advice might not apply, so find local alternatives, eat as your
-        ancestors would have.
-      </p>
+      {/* <h2 id="introduction">Introduction</h2> */}
       <p>
         Following the guidelines in this document should fix most major
         nutritional deficiencies and decrease inflammation, but do your own
@@ -40,18 +20,76 @@ const Nutrition = ({ topbar }) => (
         Keep in mind that the source of your food matters; happy animals and
         happy farmers produce better food.
       </p>
-      <p>
+      {/* <p>
         Use a service like{" "}
         <a href="https://cronometer.com" rel="noreferrer" target="_blank">
           cronometer.com
         </a>{" "}
         to figure out potential deficiencies.
+      </p> */}
+
+      <p>
+        I recommend and refer to Ray Peat's writings and interviews on most
+        things related to health.
+      </p>
+      <ul>
+        <li>
+          <a href="http://raypeat.com" rel="noreferrer" target="_blank">
+            Ray Peat's website
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://wiki.chadnet.org/ray-peat"
+            rel="noreferrer"
+            target="_blank"
+          >
+            ChadNet
+          </a>{" "}
+          (backup and collection of Ray Peat resources)
+        </li>
+        <li>
+          <a
+            href="https://www.functionalps.com/blog/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Functional Performance Systems
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.toxinless.com/peat/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Toxinless
+          </a>
+        </li>
+      </ul>
+      <p>
+        Avoid fad diets like keto,{" "}
+        <a
+          href="https://www.functionalps.com/blog/2010/12/12/low-carb-diet-death-to-metabolism/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          low carb
+        </a>
+        , carnivore, primal, multi-day fasting, intermittent fasting,
+        one-meal-a-day, etc.
       </p>
 
       <h2 id="what-to-eat">What to eat</h2>
       <ul>
         <li>
-          <b>Meat</b> - grass-fed red meats, game meat
+          <b>Fruit, fruit juices</b> - sweet, ripe, preferable without pulp
+        </li>
+        <li>
+          <b>Milk</b> - preferably unpasteurized, local
+        </li>
+        <li>
+          <b>Cheese</b> - preferably made from animal rennet
         </li>
         <li>
           <b>Liver, organ food</b>
@@ -60,50 +98,45 @@ const Nutrition = ({ topbar }) => (
           <b>Bone broth, soups</b>
         </li>
         <li>
+          <b>Meat</b> - grass-fed red meats, game meat; limit somewhat
+        </li>
+        <li>
           <b>Seafood</b> - fish, shellfish, bivalves (like oysters)
         </li>
         <li>
-          <b>Cooked eggs</b> - keep the yolk runny
-        </li>
-        <li>
-          <a
-            href="https://www.mdpi.com/2072-6643/11/3/684/htm"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <b>Raw eggs</b>
-          </a>
-        </li>
-        <li>
-          <b>Lacto-fermented foods</b>
+          <b>Eggs</b>
           <ul>
+            <li>If cooked, keep the yolk intact and don't overcook it.</li>
             <li>
-              Examples are <SLink href="/recipes#sauerkraut">sauerkraut</SLink>,{" "}
-              <SLink href="/recipes#kvass">beet kvass</SLink>, kefir and kimchi.
+              <a
+                href="https://www.mdpi.com/2072-6643/11/3/684/htm"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Raw
+              </a>{" "}
+              has some benefits.
             </li>
-            <li>
-              Important for <a href="#TODO">gut health</a>.
-            </li>
+            <li>Choose eggs from hens that mostly peck outside.</li>
           </ul>
         </li>
-        <li>
-          <b>Milk/dairy</b> - preferably unpasteurized, high fat, local
-        </li>
+
         <li>
           <b>Raw honey/honeycomb</b> - antibacterial, antifungal, antioxidant
         </li>
         <li>
-          <b>Fruit</b>
-          <ul>
-            <li>
-              Choose fruits depending on what micronutrients your diet lacks.
-              Citrus fruits are high in vitamin C, pineapple is high in vitamin
-              C and manganese. Grapefruit is great.
-            </li>
-          </ul>
+          <b>Seaweed soup</b> - mainly for iodine
         </li>
         <li>
-          <b>Seaweed soup</b> - mainly for iodine
+          <b>Lacto-fermented foods</b>
+          <ul>
+            <li>Traditional in many cultures.</li>
+            <li>Can assist in displacing "bad" gut bacteria.</li>
+            <li>
+              Examples are <SLink href="/recipes#sauerkraut">sauerkraut</SLink>,{" "}
+              <SLink href="/recipes#kvass">beet kvass</SLink>, kefir and kimchi.
+            </li>
+          </ul>
         </li>
         <li>
           <b>Butter, ghee, tallow</b> - for cooking
@@ -115,15 +148,18 @@ const Nutrition = ({ topbar }) => (
           <b>Extra virgin olive oil</b> - for cooking, but heat carefully
         </li>
       </ul>
-
       <h3 id="miscellaneous">Miscellaneous</h3>
       <ul>
         <li>
-          <b>Sugar</b> (
-          <a href="http://raypeat.com/articles/articles/glycemia.shtml">
+          <b>White sugar</b> (
+          <a
+            href="http://raypeat.com/articles/articles/glycemia.shtml"
+            rel="noreferrer"
+            target="_blank"
+          >
             yes, really
-          </a>{" "}
-          – but don't eat processed crap)
+          </a>
+          )
         </li>
         <li>
           <b>Raw apple cider vinegar (with &quot;mother&quot;)</b> -
@@ -160,11 +196,6 @@ const Nutrition = ({ topbar }) => (
       </ul>
 
       <h2 id="what-to-avoid">What to avoid</h2>
-      <p>
-        I'm no extremist when it comes to diet, but in general you'd do best to
-        avoid the following due to their toxic, antinutritional and inflammatory
-        properties:
-      </p>
       <ul>
         <li>
           PUFA (polyunsaturated fatty acids) - see{" "}
@@ -184,12 +215,12 @@ const Nutrition = ({ topbar }) => (
             here
           </a>
         </li>
+        <li>Industrialized vegetable/seed oils</li>
+        <li>Grains (gluten/bread, legumes/beans, nuts included)</li>
+        <li>Corn and derivatives such as HFCS</li>
         <li>Soy</li>
         <li>Artificial sweeteners</li>
-        <li>Corn and all derivatives, such as HFCS</li>
-        <li>Grains (gluten/bread, legumes/beans, nuts included)</li>
-        <li>Industrialized vegetable/seed oils</li>
-        <li>Low quality commercial animals</li>
+        <li>Low quality animals i.e. "factory farmed" animals</li>
         <li>
           Vegetables high in{" "}
           <a
@@ -201,10 +232,8 @@ const Nutrition = ({ topbar }) => (
           </a>
         </li>
         <li>Flouride</li>
-        <li>Alcohol (probably OK in moderation)</li>
-        <li>
-          Smoking (<i>possibly</i> OK in moderation)
-        </li>
+        <li>Alcohol</li>
+        <li>Smoking</li>
       </ul>
 
       <h2 id="supplements">Supplements</h2>

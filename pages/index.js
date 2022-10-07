@@ -43,6 +43,7 @@ export default function Welcome({ onClick, audio }) {
                   <img src={skull} id="skull" alt="skull" />
                 </div>
               </Flicker>
+              <br />
               <Flicker>
                 <div id="list">
                   <ol>
@@ -50,14 +51,16 @@ export default function Welcome({ onClick, audio }) {
                     <li>make sure sound is on</li>
                     <li>enter full-screen mode</li>
                     <li>sync your brainwaves with the Human Brain Interface</li>
-                    <li>उपभूषति</li>
+                    {/* <li>उपभूषति</li> */}
                   </ol>
                 </div>
               </Flicker>
+              <br />
             </div>
+
             <img src={linePulse} id="linePulse" alt="linePulse" />
             <Flicker>
-              <div id="enter">
+              <div id="enter" style={{ color: "#ff3333" }}>
                 <img src={redSkull1} id="redSkull1" alt="skull" />
                 <DelayLink
                   href="/home"
@@ -74,11 +77,27 @@ export default function Welcome({ onClick, audio }) {
                     audio.play();
                   }}
                 >
-                  <Blip>enter brain</Blip>
+                  <Blip>ENTER BRAIN</Blip>
                 </DelayLink>
                 <img src={redSkull2} id="redSkull2" alt="skull" />
               </div>
             </Flicker>
+
+            {/* <img src={linePulse} id="linePulse" alt="linePulse" /> */}
+
+            {/* <div id="enter" style={{ fontSize: "2em", marginTop: "-1em" }}>
+              <img src={redSkull2} id="redSkull1" alt="skull" />
+              &nbsp;
+              <img src={redSkull1} id="redSkull2" alt="skull" />
+            </div> */}
+
+            {/* <Flicker>
+              <div id="enter" style={{ color: "#77ff44" }}>
+                <a href="https://chat.soma.cx" target="_blank" rel="noreferrer">
+                  <Blip>enter CHAT</Blip>
+                </a>
+              </div>
+            </Flicker> */}
           </div>
         </div>
       </div>

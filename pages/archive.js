@@ -286,7 +286,7 @@ const Archive = ({ topbar }) => {
         <p className="separator">~</p>
 
         {/* 16-03-2021 */}
-        <p>
+        {/* <p>
           Scientist attempts to justify existence of life (or form of order) in
           spite of thermodynamic principles by stating that it increased overall
           entropy, but how did that ordered system appear in the first place?
@@ -299,7 +299,7 @@ const Archive = ({ topbar }) => {
         </p>
         <p>This “law” is just another emergent property of being.</p>
 
-        <p className="separator">~</p>
+        <p className="separator">~</p> */}
 
         {/* 18-03-2021 */}
         <p>
@@ -355,10 +355,10 @@ const items = [
     date: "05-01-2021",
     text: `Nothing worth doing is as easy it as may seem at first.`,
   },
-  {
-    date: "02-11-2020",
-    text: `"Follow your dreams" is meant to be taken literally; dreams act as guides and warnings.`,
-  },
+  // {
+  //   date: "02-11-2020",
+  //   text: `"Follow your dreams" is meant to be taken literally; dreams act as guides and warnings.`,
+  // },
   {
     date: "01-11-2020",
     text: `White lies are still lies, and lying makes one ugly.`,
@@ -371,10 +371,10 @@ const items = [
     date: "15-10-2020",
     text: `Utilitarianism – a misunderstanding of the meaning of suffering.`,
   },
-  {
-    date: "13-10-2020",
-    text: `Relaxation is only relaxation if it's a goal in itself. If relaxation is a means, it's not relaxation.`,
-  },
+  // {
+  //   date: "13-10-2020",
+  //   text: `Relaxation is only relaxation if it's a goal in itself. If relaxation is a means, it's not relaxation.`,
+  // },
   {
     date: "05-10-2020",
     text: `Thinking much but walking little eventually produces ugly thoughts.`,
@@ -391,10 +391,10 @@ const items = [
     date: "03-10-2020",
     text: `To hold a grudge is to be enslaved.`,
   },
-  {
-    date: "02-10-2020",
-    text: `The most powerful mode of communication is via the aphorism that does not seek to justify itself.`,
-  },
+  // {
+  //   date: "02-10-2020",
+  //   text: `The most powerful mode of communication is via the aphorism that does not seek to justify itself.`,
+  // },
   {
     date: "17-09-2020",
     text: `Ask not for a smaller spirit, but for a larger life.`,

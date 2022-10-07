@@ -28,7 +28,7 @@ const Remedies = () => (
             <SLink href="/nutrition">Nutrition</SLink>
           </li>
           <li>
-            Gut health (see <SLink href="/misc">the misc page</SLink>)
+            <SLink href="/health/gut">Gut health</SLink>
           </li>
           <li>
             <SLink href="/breathing">Breathing</SLink>
@@ -53,8 +53,8 @@ const Remedies = () => (
             </a>
           </li>
           <li>
-            Avoid <SLink href="/threats#blue-light">blue light</SLink> as much
-            as possible
+            Avoid <SLink href="/health/blue-light">blue light</SLink> as much as
+            possible
             <ul>
               <li>
                 Use a blue light filter such as{" "}

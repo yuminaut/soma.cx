@@ -189,12 +189,13 @@ const Breathing = ({ topbar }) => (
           minutes.
         </li>
       </ol>
-      <br />
-      There are many Buteyko exercises; another one is described{" "}
-      <a href="https://twitter.com/BreatheLesss/status/1239500252677275648">
-        here
-      </a>
-      as well as below:
+      <p>
+        There are many Buteyko exercises; another one is described{" "}
+        <a href="https://twitter.com/BreatheLesss/status/1239500252677275648">
+          here
+        </a>{" "}
+        as well as below:
+      </p>
       <ul>
         <li>2-3 x 15-20 minutes per day.</li>
         <li>80%-90% Inhale - Slow Exhale (2s) - Xs pause</li>

@@ -78,6 +78,8 @@ Why is ivermectin such a big deal? Could there be any truth to it?
 
 ## Deworming - getting rid of worms/parasites
 
+*Note: I don't endorse any of these protocols, do your own research.*
+
 - [The Complete Herbal by Nicholas Culpeper, M.D.](https://www.gutenberg.org/files/49513/49513-h/49513-h.htm).
   Search for "worm" or "parasite".
   - [Backup](the-complete-herbal.html)

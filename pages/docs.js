@@ -34,25 +34,26 @@ const Docs = () => (
 
 const links = [
   { url: "/travel", name: "Notes on travel" },
-  { url: "/buildings", name: "Buildings are Sentient and Evil" },
+  { url: "/physiognomy", name: "Notes on physiognomy" },
   { url: "/antivegan/index.html", name: "Anti-vegan" },
-  {
-    url: "http://cura.free.fr/xv/14boutet.html",
-    name: "🔗 Druidical Astrology",
-  },
+  { url: "/buildings", name: "Buildings are Sentient and Evil" },
   {
     url: "http://lwhasten.com/edved.html",
     name: "🔗 Eddas and Vedas: Comparative Mythology and the Aryan Invasion Hypothesis",
   },
   {
-    url: "https://saturniancosmology.org/index.php",
-    name: "🔗 Saturnian Cosmology",
+    url: "http://cura.free.fr/xv/14boutet.html",
+    name: "🔗 Druidical Astrology",
   },
-  { url: "https://sacred-texts.com/hin/manu.htm", name: "🔗 The Laws of Manu" },
   {
     url: "http://osterholm.net/swedes.html",
     name: "🔗 A History of the Swedish People",
   },
+  // {
+  //   url: "https://saturniancosmology.org/index.php",
+  //   name: "🔗 Saturnian Cosmology",
+  // },
+  // { url: "https://sacred-texts.com/hin/manu.htm", name: "🔗 The Laws of Manu" },
 ];
 
 export default Docs;

@@ -28,8 +28,8 @@ const Links = ({ topbar }) => (
             – anonymous P2P publishing/communication network
           </li>
           <li>
-            <ALink href="https://geti2p.net/en/">I2P</ALink>{" "}
-            – anonymous P2P network
+            <ALink href="https://geti2p.net/en/">I2P</ALink> – anonymous P2P
+            network
           </li>
           <li>
             <ALink href="https://www.opennic.org/">OpenNIC</ALink> – alternative
@@ -40,6 +40,10 @@ const Links = ({ topbar }) => (
             decentralized DNS and more, on a blockchain
           </li>
           <li>Bitcoin etc. – payment alternative</li>
+          <li>
+            <ALink href="https://kycnot.me/">KYC? Not me!</ALink> –
+            cryptocurrency marketplaces that don't ask for personal info
+          </li>
         </ul>
 
         <h4>Alternative telecommunications networks</h4>

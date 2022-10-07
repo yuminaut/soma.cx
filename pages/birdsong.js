@@ -60,13 +60,6 @@ const Tweets = ({ topbar }) => (
         </p>
       </Tweet>
 
-      <Tweet href="https://twitter.com/DejaRu22/status/1319573942240120833">
-        <p>
-          Above all else? I value people the most for their hearts. All the rest
-          is useless if their soul is rotten.
-        </p>
-      </Tweet>
-
       <Tweet>
         <p>If loving her is cringe, I don't want to be based...</p>
       </Tweet>

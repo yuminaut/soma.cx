@@ -39,12 +39,12 @@ export const Home = ({ topbar }) => {
         {/* <p> Welcome inside my brain... you are under control of my neural network now, ha ha ha...{" "} <img src={skull} id="skull" alt="skull" /> Just kidding, my thoughts are compiled to HTML and transmitted to your brain via a custom HBI protocol... direct access would be too dangerous! </p> */}
         <div className="home-links">
           <dl>
-            <dt>LAYER 0</dt>
-            <dd>{textLinks}</dd>
             <dt>SOMATIC TRANSMUTATION</dt>
             <dd>{healthLinks}</dd>
             <dt>EXP</dt>
             <dd>{miscLinks}</dd>
+            <dt>LAYER 0</dt>
+            <dd>{textLinks}</dd>
           </dl>
         </div>
         <p className="text-align-right">

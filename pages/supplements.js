@@ -20,7 +20,17 @@ const Supplements = ({ topbar }) => (
           Notes on various supplements. Also see the{" "}
           <SLink href="/nutrition">nutrition</SLink> page.
         </p>
-        <ul>
+
+        <p>
+          <i>
+            <b>
+              Note: I'm rewriting this page because the old one is incomplete
+              enough to mislead readers. Stay tuned!
+            </b>
+          </i>
+        </p>
+
+        {/* <ul>
           <li>
             <ALink href="#traditional">Traditional supplements</ALink>
           </li>
@@ -33,22 +43,16 @@ const Supplements = ({ topbar }) => (
           <li>
             <ALink href="#vitamin-c">🚫 Vitamin C</ALink>
           </li>
-          {/* <li>
-            <ALink href="#vitamin-d">🚫 Vitamin D</ALink>
-          </li> */}
           <li>
             <ALink href="#omega-3">🚫 Omega-3</ALink>
           </li>
-          {/* <li>
-            <ALink href="#zinc">🚫 Zinc</ALink>
-          </li> */}
           <li>
             <ALink href="#iron">🚫 Iron</ALink>
           </li>
-        </ul>
+        </ul> */}
       </div>
 
-      <div className="box">
+      {/* <div className="box">
         <a id="traditional"></a>
         <ReactMarkdown children={mdTraditional} />
       </div>
@@ -68,25 +72,15 @@ const Supplements = ({ topbar }) => (
         <ReactMarkdown children={mdVitaminC} />
       </div>
 
-      {/* <div className="box bad">
-        <a id="vitamin-d"></a>
-        <ReactMarkdown children={mdVitaminD} />
-      </div> */}
-
       <div className="box bad">
         <a id="omega-3"></a>
         <ReactMarkdown children={mdOmega3} />
       </div>
 
-      {/* <div className="box bad">
-        <a id="zinc"></a>
-        <ReactMarkdown children={mdZinc} />
-      </div> */}
-
       <div className="box bad">
         <a id="iron"></a>
         <ReactMarkdown children={mdIron} />
-      </div>
+      </div> */}
     </div>
   </div>
 );
