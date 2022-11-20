@@ -51,7 +51,7 @@ Did we forget that "cleanliness is next to godliness"?
 Could parasite infection be a contributing factor in male homosexual behavior?
 
 - ["Homosexuality is caused by parasites" (slightly NSFW)](parasites/parasites-homosexuality.jpeg)
-- ["Turpentine Cured Me From Being Gay"](https://youtu.be/HJeL6NKy7yA?t=128)
+- ["Turpentine Cured Me From Being Gay"](https://www.bitchute.com/video/jCvbc9UETe0F/)
 
 Possibly a long stretch but some data worth considering:
 

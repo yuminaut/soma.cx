@@ -1,6 +1,6 @@
 import Head from "next/head";
 import ReactMarkdownWithHtml from "react-markdown/with-html";
-import { SLink } from "../components/Links.js";
+import { ALink, SLink } from "../components/Links.js";
 
 const Section = ({ id, md }) => (
   <div className="box">
@@ -18,7 +18,10 @@ const Threats = ({ topbar }) => {
       {topbar}
       <div className="wrapper">
         <h1 id="modern-dangers">Threats to health</h1>
-        <p>There are many threats to health that most are unaware of:</p>
+        <p>
+          There are many threats to health that most are unaware of. Click the
+          links below for more info on some of them.
+        </p>
         <ul>
           <li>
             <SLink href="health/blue-light">Blue light</SLink>
@@ -38,24 +41,22 @@ const Threats = ({ topbar }) => {
           <li>
             <SLink href="breathing">Incorrect breathing</SLink>
           </li>
+          <li>
+            <SLink href="health/shampoo">Commercial shampoo</SLink>
+          </li>
+          <li>
+            <ALink
+              href="https://medium.com/@veritasnaut/sunglasses-are-killing-you-dbadb93f935d"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Sunglasses
+            </ALink>
+          </li>
         </ul>
-        <p>... and a few more:</p>
-        <h3>Schampoo</h3>
-        <p>
-          The sulfates in shampoo, while removing dirt from your hair and scalp,
-          also strip them of natural oils. This dries out your hair and makes it
-          frizzy and brittle.
-        </p>
-        <p>
-          Your scalp also absorbs whatever industrial chemicals the shampoo
-          contains.
-        </p>
-        <p>
-          The <a href="https://www.reddit.com/r/NoPoo/wiki/index">/r/NoPoo</a>{" "}
-          ("no shampoo") wiki on Reddit has good information on this topic.
-        </p>
+        {/* <p>... and a few more:</p> */}
 
-        <h3>Sunglasses</h3>
+        {/* <h3>Sunglasses</h3>
         <p>
           Sunglasses worsen vision and weaken the signals that enforce a healthy
           circadian rhythm.
@@ -64,7 +65,7 @@ const Threats = ({ topbar }) => {
           <a href="https://medium.com/@veritasnaut/sunglasses-are-killing-you-dbadb93f935d">
             More info
           </a>
-        </p>
+        </p> */}
       </div>
     </div>
   );

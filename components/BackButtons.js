@@ -17,3 +17,9 @@ export const BackMisc = () => (
     ← <SLink href="/misc">Back</SLink>
   </div>
 );
+
+export const BackThreats = () => (
+  <div className="back-button">
+    ← <SLink href="/threats">Back</SLink>
+  </div>
+);

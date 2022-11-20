@@ -83,7 +83,7 @@ const Nutrition = ({ topbar }) => (
       <h2 id="what-to-eat">What to eat</h2>
       <ul>
         <li>
-          <b>Fruit, fruit juices</b> - sweet, ripe, preferable without pulp
+          <b>Fruit, fruit juices</b> - sweet, ripe, preferably without pulp
         </li>
         <li>
           <b>Milk</b> - preferably unpasteurized, local

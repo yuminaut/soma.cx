@@ -79,7 +79,7 @@ const collapse = (xs) =>
     ]);
 
 const textLinks = collapse([
-  { href: "/archive", title: "archive" },
+  // { href: "/archive", title: "archive" },
   // { href: "/birdsong", title: "birdsong" },
   { href: "/docs", title: "docs" },
   // { href: "/favorites", title: "favorites" },

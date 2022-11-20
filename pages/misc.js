@@ -1,5 +1,6 @@
 import Head from "next/head";
 import ReactMarkdown from "react-markdown";
+// import remarkGfm from "remark-gfm";
 
 const Misc = ({ topbar }) => (
   <div className="page default-page">
@@ -8,7 +9,11 @@ const Misc = ({ topbar }) => (
     </Head>
     {topbar}
     <div className="wrapper">
-      <ReactMarkdown children={md} />
+      <ReactMarkdown
+        children={md}
+        allowDangerousHtml
+        // remarkPlugins={[remarkGfm]}
+      />
     </div>
   </div>
 );
@@ -18,12 +23,13 @@ const md = `
 
 Unorganized content.
 
-- Hair care
-- Skin care
-- Prefer warm/hot liquids over cold liquids
+- [Hair care](#hair-care)
+- [Skin care](#skin-care)
+- [Prefer warm/hot liquids over cold liquids](#liquids)
 
 
 ## Hair care
+<a id="hair-care" />
 
 - Alternative to shampoo: egg
 - Magnesium chloride on scalp to improve blood flow and remove calcium buildup
@@ -34,6 +40,7 @@ Unorganized content.
 
 
 ## Skin care
+<a id="skin-care" />
 
 Healthy skin is mostly a matter of diet and hormonal balance. Far too complex
 for me to go into right now. Avoid industrial skin care products and
@@ -41,6 +48,7 @@ polyunsaturated fatty acids.
 
 
 ## Prefer warm/hot liquids over cold liquids
+<a id="liquids" />
 
 Cold liquids (especially with ice) restricts blood vessels lining the gut,
 increases mucus production, and neutralizes digestive enzymes. Warm or lukewarm
